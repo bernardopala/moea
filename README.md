@@ -1,13 +1,14 @@
 # Algorytmy ewolucyjnej optymalizacji wielokryterialnej
 ### Przykład wykorzystania platformy GitHub i notatników Jupyter do stworzenia nowoczesnej formy publikacji naukowej w duchu Open Science
 
+---
 Artykuł prezentuje analizę porównawczą wybranych algorytmów ewolucyjnej optymalizacji wielokryterialnej. Do badań 
 wykorzystano algorytmy: NSGA- II, SPEA2, MOEA/D oraz IBEA. Skuteczność ich funkcjonowania została zbadana 
 z wykorzystaniem znanych funkcji testowych (tzw. banchmarków): 2-kryterialnych Kursawe i Binh2 oraz 3-kryterialnych 
 DTLZ2 i DTLZ7. Eksperymenty numeryczne i wnioski poprzedzono syntetycznie ujętym wstępem teoretycznym. Obliczenia
 wykonano z wykorzystaniem biblioteki jMetalPy 1.7.0 (https://github.com/jMetal/jMetalPy).
----
 
+---
 W prezentowanej pracy przyjęto formę „żywego” artykułu w postaci Jupyter Notebooka opublikowanego na platformie GitHub, 
 aby maksymalnie zwiększyć rzetelność i przejrzystość całego procesu badawczego. Taka forma integruje narrację naukową 
 z kodem, danymi oraz wynikami, dzięki czemu każdy etap analizy jest jawny i możliwy do odtworzenia. Notebook zawiera 
@@ -34,8 +35,8 @@ niejasności dotyczące implementacji, ukrytych założeń, czy przetwarzania da
 interpretacyjnych oraz ułatwia późniejsze rozszerzenia, poprawki i dalszy rozwój badania. „Żywy” artykuł nie jest 
 zamrożonym dokumentem, lecz pełnym środowiskiem badawczym, które można analizować, uruchamiać, nadpisywać i rozwijać, 
 co stanowi praktyczne urzeczywistnienie zasad otwartej i odpowiedzialnej nauki.
----
 
+---
 #### Struktura repozytorium
 Notatniki:
 * /moea.ipnyb – główny artykuł
@@ -49,6 +50,6 @@ Moduły pomocnicze:
 Foldery:
 * /results/ – wygenerowane pliki z rozwiązaniami problemów
 * /resoruces/ - pliki pomocnicze potrzebne do wykonania eksperymentów z wykorzystaniem biblioteki jMetalPy
----
 
+---
 ### Multi-objective evolutionary optimization algorithms - a tutorial. An illustration of combining GitHub and Jupyter Notebooks to create a modern scientific publication in the spirit of Open Science

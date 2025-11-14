@@ -310,7 +310,7 @@ def draw_2d_comparison(problem_name, iteration):
     plt.grid(True)
     plt.scatter(ref_x, ref_y, marker="o", facecolors=ref_color, s=ref_s)
     plt.scatter(fun1_x, fun1_y, marker="o", facecolors=aprox_color, s=fun_s, alpha=alpha)
-    plt.title(f'a) NSGAII (HV = {round(fun1_hv, ndigits)}, IGD = {round(fun1_igd, ndigits)})', fontsize=fontsize)
+    plt.title(f'a) NSGA-II (HV = {round(fun1_hv, ndigits)}, IGD = {round(fun1_igd, ndigits)})', fontsize=fontsize)
 
     plt.subplot(222)
     plt.xlabel("$f_1{(x)}$")
@@ -326,7 +326,7 @@ def draw_2d_comparison(problem_name, iteration):
     plt.grid(True)
     plt.scatter(ref_x, ref_y, marker="o", facecolors=ref_color, s=ref_s)
     plt.scatter(fun3_x, fun3_y, marker="o", facecolors=aprox_color, s=fun_s, alpha=alpha)
-    plt.title(f'c) MOEAD (HV = {round(fun3_hv, ndigits)}, IGD = {round(fun3_igd, ndigits)})', fontsize=fontsize)
+    plt.title(f'c) MOEA/D (HV = {round(fun3_hv, ndigits)}, IGD = {round(fun3_igd, ndigits)})', fontsize=fontsize)
 
     plt.subplot(224)
     plt.xlabel("$f_1{(x)}$")
@@ -334,7 +334,7 @@ def draw_2d_comparison(problem_name, iteration):
     plt.grid(True)
     plt.scatter(ref_x, ref_y, marker="o", facecolors=ref_color, s=ref_s)
     plt.scatter(fun4_x, fun4_y, marker="o", facecolors=aprox_color, s=fun_s, alpha=alpha)
-    plt.title(f'd) Epsilon-IBEA (HV = {round(fun4_hv, ndigits)}, IGD = {round(fun4_igd, ndigits)})', fontsize=fontsize)
+    plt.title(f'd) IBEA (HV = {round(fun4_hv, ndigits)}, IGD = {round(fun4_igd, ndigits)})', fontsize=fontsize)
 
     plt.show()
 
@@ -396,7 +396,7 @@ def draw_3d_comparison(problem_name, iteration):
     ax.set_ylabel('$f_2{(x)}$')
     ax.set_zlabel('$f_3{(x)}$')
     ax.view_init(elev, azim, roll)
-    ax.set_title(f'a) NSGAII (HV = {round(fun1_hv, ndigits)}, IGD = {round(fun1_igd, ndigits)})', fontsize=fontsize)
+    ax.set_title(f'a) NSGA-II (HV = {round(fun1_hv, ndigits)}, IGD = {round(fun1_igd, ndigits)})', fontsize=fontsize)
 
     ax = fig.add_subplot(222, projection='3d')
     ax.scatter3D(ref_x, ref_y, ref_z, marker="o", facecolors=ref_color, s=ref_s, alpha=alpha)
@@ -416,7 +416,7 @@ def draw_3d_comparison(problem_name, iteration):
     ax.set_ylabel('$f_2{(x)}$')
     ax.set_zlabel('$f_3{(x)}$')
     ax.view_init(elev, azim, roll)
-    ax.set_title(f'c) MOEAD (HV = {round(fun3_hv, ndigits)}, IGD = {round(fun3_igd, ndigits)})', fontsize=fontsize)
+    ax.set_title(f'c) MOEA/D (HV = {round(fun3_hv, ndigits)}, IGD = {round(fun3_igd, ndigits)})', fontsize=fontsize)
 
     ax = fig.add_subplot(224, projection='3d')
     ax.scatter3D(ref_x, ref_y, ref_z, marker="o", facecolors=ref_color, s=ref_s, alpha=alpha)
@@ -426,7 +426,7 @@ def draw_3d_comparison(problem_name, iteration):
     ax.set_ylabel('$f_2{(x)}$')
     ax.set_zlabel('$f_3{(x)}$')
     ax.view_init(elev, azim, roll)
-    ax.set_title(f'd) Epsilon-IBEA (HV = {round(fun4_hv, ndigits)}, IGD = {round(fun4_igd, ndigits)})',
+    ax.set_title(f'd) IBEA (HV = {round(fun4_hv, ndigits)}, IGD = {round(fun4_igd, ndigits)})',
                  fontsize=fontsize)
 
     plt.show()

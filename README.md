@@ -39,17 +39,17 @@ co stanowi praktyczne urzeczywistnienie zasad otwartej i odpowiedzialnej nauki.
 ---
 #### Struktura repozytorium
 Notatniki:
-* /moea.ipnyb – główny artykuł
-* /comparative_analysis.ipnyb - notebook z eksperymentami zw. z analizą porównawczą algorytmów na wybranych probelmach (wyniki lądują w folderze \results\comparative_analysis\)
-* /fonseca_selected_generation.ipnyb - notebook z eksprymentami prezentującymi przykładowy proces ewolucyjnej optymalizacji wielokryterialnej (wyniki lądują w folderze \results\selected_generations\)
+* /moea_article.ipnyb – główny artykuł
+* /02_moea_comparative_analysis_experiment.ipynb - notebook z eksperymentami zw. z analizą porównawczą algorytmów na wybranych probelmach (wyniki lądują w folderze \results\comparative_analysis\)
+* /01_moea_selected_generations_experiment.ipynb - notebook z eksprymentami prezentującymi przykładowy proces ewolucyjnej optymalizacji wielokryterialnej (wyniki lądują w folderze \results\selected_generations\)
 
-Moduły pomocnicze:
+Moduł pomocniczy "utils":
 * /plots.py – moduł pomocniczy do prezentacji wykresów na bazie wyników z podfolderów znajdujących się w folderze \results\
 * /evaluation.py – moduł pomocniczy do obróbki wyników analizy porównawczej (bazuje na wynikach z folderu \results\comparative_analysis\)
 
 Foldery:
 * /results/ – wygenerowane pliki z rozwiązaniami problemów
-* /resoruces/ - pliki pomocnicze potrzebne do wykonania eksperymentów z wykorzystaniem biblioteki jMetalPy
+* /resources/ - pliki pomocnicze potrzebne do wykonania eksperymentów z wykorzystaniem biblioteki jMetalPy
 
 ---
 ### Multi-objective evolutionary optimization algorithms - a tutorial. An illustration of combining GitHub and Jupyter Notebooks to create a modern scientific publication in the spirit of Open Science
